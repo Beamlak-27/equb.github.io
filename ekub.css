@@ -1,0 +1,43 @@
+
+.navbar{
+    border-radius: 100px;
+    border-style:ridge;
+}
+.card {
+    background-color: hsla(51, 64%, 35%, 0.387);
+    
+}
+.error_Msg {
+    color: red;
+}
+
+.table {
+    border-collapse: collapse;
+    margin-top: 0;
+    border-radius: 2rem;
+}
+.table thead {
+    position: sticky;
+    top: 0;
+    background:white;
+    border: solid #ccc;
+}
+.table th, 
+.table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.table_container {
+    height: 250px;
+    overflow-y: auto;
+}
+.form_class{
+    margin-top: 100px;
+}
